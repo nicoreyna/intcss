@@ -12,8 +12,16 @@ nav, h1, #menu li {
  display: inline;
  }
 
-main{
+#playa{
   background-color: hsla(260, 100%, 89%, 1);
+}
+
+#parque{
+  background-color: hsla(260, 100%, 80%, 1);
+}
+
+#rio{
+  background-color: hsla(260, 100%, 67%, 1);
 }
 
 #menu li a{
@@ -46,6 +54,7 @@ li a{
 .contenido{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 #titulo{
@@ -68,13 +77,45 @@ li a{
   padding-bottom: 10px;
 }
 
+.descripcion p{
+  font-family: 'DM Serif Text', serif;
+}
+
 .contenido h2{
   font-family: 'Love Ya Like A Sister', cursive;
   text-align: center;
-  font-size: 50px;
+  font-size: 70px;
+  margin-bottom: 0px;
 }
 
 .contenido img{
   border-radius: 15px;
-  
+  width: 350px;
+  padding: 50px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px 0 50px;
+}
+
+.contacto{
+  background-color: hsla(260, 100%, 89%, 1);
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: hsla(260, 100%, 80%, 1);
+  margin-top: 15px;
+  width: 400px;
+}
+
+h3{
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+
+form p{
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+label{
+  width: 100%;
 }
